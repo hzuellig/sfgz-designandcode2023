@@ -23,7 +23,7 @@ function preload() {
 
 function mandala(){
  //schleife: (anfangswert, endwert, veränderungswert/update)
- for (let i = 0; i < 36; i = i +1) 
+ //for (let i = 0; i < 36; i = i +1) 
 }
 
 
