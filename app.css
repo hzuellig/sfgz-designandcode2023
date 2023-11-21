@@ -1,0 +1,121 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: black;
+    font-family: Inconsolata,monospace;
+    color:white;
+}
+main{
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+}
+
+header{
+    width:100vw;
+    position:fixed;
+    bottom:0px;
+    display:flex;
+    align-items: center;
+    z-index:2;
+    
+}
+main#p5sketch{
+    position: fixed;
+    top:0px;
+}
+@media screen and (max-width: 30em){
+    header{
+        position:relative;
+        margin-top:2rem;
+    }
+}
+header h1{
+    font-weight: normal;
+    padding:0.5rem;
+    margin:1rem;
+    font-size: 1rem;;
+    background-color: black;
+}
+
+nav{
+    position:relative;
+    top:1rem;
+    display:flex;
+    z-index:10;
+    z-index:2;
+   
+}
+nav ul{
+    width:calc(100vw - 2rem);
+    display:flex;
+    flex-wrap: wrap;
+    margin:0px;
+    
+    padding:0px;
+   
+}
+nav ul li{
+    list-style-type: none;
+    border:1px solid white;
+    font-size: 1rem;
+    padding:0.5rem;
+    margin:1rem;
+    flex-basis: 200px;
+    flex-grow: 1;
+    background-color: black;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li:hover {
+    background-color: white;
+    
+}
+nav ul li:hover a {
+   color:black;
+}
+section#screenshots{
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:4rem;
+    padding-bottom: 8rem;;
+}
+
+section#screenshots img{
+    width:28vw;
+}
+
+footer{
+    position: fixed;
+    bottom:20px;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:4rem;
+    z-index:10;
+}
+
+footer a {
+    display:block;
+	width: 60px;
+	height: 52px;
+	
+}
+
+.arrows path {
+	stroke: #FFFFFF;
+	fill: transparent;
+	stroke-width: 2px;	
+	
+}
+
+.arrows path:hover{
+    stroke-width: 4px;	
+}

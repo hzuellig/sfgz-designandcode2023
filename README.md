@@ -1,16 +1,5 @@
 # sfgz-designandcode2023
-
+Arbeiten aus dem Modul Design&Code, SFGZ, Studierende HFIAD 2022, Dozierende Hanna Züllig <br/>
+PROJEKTE:
 * https://hzuellig.github.io/sfgz-designandcode2023/
 
-* Ebnöther	Lukas
-* Ezgeta	Matilda
-* Gabathuler	Nick
-* Karli	Nina
-* Kramer	Tobias
-* Kuhn	Marc
-* Lusti	Manuel
-* Marty	Roman
-* Mognol	Alessia
-* Shivananthakumar	Pryjan
-* Stöckli	Patrick
-* Tschümperlin	Roger
