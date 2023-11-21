@@ -17,7 +17,7 @@ function draw() {
   for (let y = 0; y < tilesY; y++) {
     for (let x = 0; x < tilesX; x++) {
       // Winkel zur Maus
-      let angleToMouse = atan2(mouseY - (y * gridY), mouseX - (x * gridX));
+      let angleToMouse = atan2(mouseY - (y * gridY), mouseX - (x * gridX)); //Code aus Beispiel der Übung
 
 
       push();
@@ -40,7 +40,7 @@ function draw() {
       // Zeiger zeichnen
       stroke(0, 0, 255);
       strokeWeight(3);
-      line(0, 0, 80, 0);
+      line(0, 0, 100, 0);
 
       pop();
     }

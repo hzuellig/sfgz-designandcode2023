@@ -38,7 +38,7 @@ function draw() {
     }
 
     beginShape();
-    for (let i = 0; i < 360; i += 360 / ecken) {
+    for (let i = 0; i < 360; i += 360 / ecken) { //ChatGPT verhalf hier bei der Erstellung der Form
         let x = centerX + cos(i) * radius1;
         let y = centerY + sin(i) * radius1;
         vertex(x, y);

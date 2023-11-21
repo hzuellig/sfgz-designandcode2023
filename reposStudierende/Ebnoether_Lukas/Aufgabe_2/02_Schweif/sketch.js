@@ -17,7 +17,7 @@ function draw() {
   for (let y = 0; y < tilesY; y++) {
     for (let x = 0; x < tilesX; x++) {
       // Distanz zur Maus
-      let distanz = dist(mouseX, mouseY, x * gridX, y * gridY);
+      let distanz = dist(mouseX, mouseY, x * gridX, y * gridY); //Code aus Beispiel der Übung
       push();
       translate(x * gridX, y * gridY);
 
