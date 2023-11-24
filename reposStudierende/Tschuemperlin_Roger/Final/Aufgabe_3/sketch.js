@@ -1,4 +1,6 @@
 /* Credits to @coauthor Hanna Züllig for providing sample Code
+  Ein grossteil dieses Codes wurde in zusammenarbeit mit Tobias Kramer,
+  Roman Marty und Patrick Stöckli erstellt.
 */
 
 let f;
