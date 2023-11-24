@@ -95,3 +95,4 @@ function mousePressed() {
     reverseRotation = !reverseRotation;
   }
 }
+//mit untertützung von Chat GPT

@@ -36,3 +36,4 @@ function drawText(){
     skalierungfaktor = skalierungfaktor+1;
     }
 }
+// im Team mit Roger,Roman und Tobias erstellt

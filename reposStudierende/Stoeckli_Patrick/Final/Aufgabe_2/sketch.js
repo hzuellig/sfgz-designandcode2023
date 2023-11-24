@@ -166,3 +166,4 @@ function blackHexagon(x, y, w, h) {
   }
   endShape(CLOSE); // Beendet die Formzeichnung und schließt das Hexagon
 }
+// mit Chat GPT zusammen erstellt
