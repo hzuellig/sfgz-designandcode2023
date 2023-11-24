@@ -1,3 +1,6 @@
+/* Credits to @coauthor Hanna Züllig for providing sample Code
+*/
+
 let f;
 let fontGroesse=133;
 let lineHeight = fontGroesse * 0.3;

@@ -1,3 +1,6 @@
+/* Credits to @coauthor Hanna Züllig for providing sample Code
+*/
+
 
 let r1=200;
 let r2=100;
@@ -35,6 +38,10 @@ function draw() {
      */
     micLevel = Mikrofon.listenMic();
     Blaetter=map(micLevel*5,0,255,160,0);
+    /*
+    Das Mikrofon beeinflusst die grösse der Blätter.
+    */
+
 
   }
 

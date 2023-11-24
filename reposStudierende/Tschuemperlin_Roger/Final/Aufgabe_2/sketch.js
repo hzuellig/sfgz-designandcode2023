@@ -1,3 +1,6 @@
+/* Credits to @coauthor Hanna Züllig for providing sample Code
+*/
+
 let rasterbreite;
 let anzahlKacheln = 30;
 let gridX, gridY;
